@@ -27,7 +27,7 @@ export default function CalendarButtons() {
         href={googleCalendarUrl()}
         target="_blank"
         rel="noopener noreferrer"
-        className="px-8 py-3 border border-[#a08c6e] text-[#a08c6e] text-sm tracking-widest uppercase hover:bg-[#a08c6e] hover:text-white transition-all duration-200"
+        className="px-10 py-4 border border-[#a08c6e] text-[#a08c6e] text-sm lg:text-base tracking-widest uppercase hover:bg-[#a08c6e] hover:text-white transition-all duration-200"
       >
         Marcar no Calendário
       </a>

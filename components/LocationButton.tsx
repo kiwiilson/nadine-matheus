@@ -6,7 +6,7 @@ export default function LocationButton() {
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <p className="text-lg text-gray-400">
+      <p className="text-base lg:text-lg text-gray-400">
         Espaço Italia · Estrada da Roseira, 5500 · Apolinário
       </p>
       <div className="flex flex-col sm:flex-row gap-3">
@@ -14,7 +14,7 @@ export default function LocationButton() {
           href={googleUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-6 py-2 border border-[#a08c6e] text-[#a08c6e] text-xs tracking-widest uppercase hover:bg-[#a08c6e] hover:text-white transition-all duration-200"
+          className="px-8 py-3 border border-[#a08c6e] text-[#a08c6e] text-sm lg:text-base tracking-widest uppercase hover:bg-[#a08c6e] hover:text-white transition-all duration-200"
         >
           Ver No Mapa
         </a>

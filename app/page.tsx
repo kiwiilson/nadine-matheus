@@ -19,17 +19,17 @@ export default function Home() {
         <span className="not-italic">Isaías 41:20</span>
       </p>
 
-      <h1 className="font-parisienne text-6xl md:text-8xl lg:text-9xl text-[#2c2c2c] mb-2">
-        Nadine <span className="text-[#a08c6e]">&</span> Matheus
+      <h1 className="font-parisienne text-6xl md:text-8xl lg:text-9xl text-[#2c2c2c] mb-2 whitespace-nowrap">
+        Nadine <span className="text-[#a08c6e]">&amp;</span> Matheus
       </h1>
 
       <div className="w-16 h-px bg-[#a08c6e] my-6" />
 
-      <p className="text-3xl md:text-4xl lg:text-5xl tracking-widest text-[#2c2c2c] mb-2">
+      <p className="text-3xl md:text-4xl lg:text-7xl tracking-widest text-[#2c2c2c] mb-2">
         Save the Date
       </p>
 
-      <p className="text-3xl md:text-4xl lg:text-5xl tracking-widest text-[#2c2c2c] mb-2">
+      <p className="text-3xl md:text-4xl lg:text-7xl tracking-widest text-[#2c2c2c] mb-2">
         27 · 05 · 2027
       </p>
 
@@ -47,7 +47,7 @@ export default function Home() {
 
       <div className="w-16 h-px bg-[#e5e0d8] my-8" />
 
-      <div className="text-3xl md:text-5xl tracking-widest">
+      <div className="text-3xl md:text-4xl tracking-widest">
         
         <CommentSection />
 
