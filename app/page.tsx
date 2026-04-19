@@ -1,4 +1,8 @@
 import CalendarButtons from "@/components/CalendarButtons";
+import Countdown from "@/components/Countdown";
+import LocationButton from "@/components/LocationButton";
+import LikeButton from "@/components/LikeButton";
+import CommentSection from "@/components/CommentSection";
 
 export default function Home() {
   return (
@@ -14,35 +18,38 @@ export default function Home() {
         <span className="not-italic">Isaías 41:20</span>
       </p>
 
-      <h1 className="text-5xl md:text-7xl font-light tracking-wide text-[#2c2c2c] mb-2">
+      <h1 className="font-parisienne text-6xl md:text-8xl text-[#2c2c2c] mb-2">
         Nadine <span className="text-[#a08c6e]">&</span> Matheus
       </h1>
 
       <div className="w-16 h-px bg-[#a08c6e] my-6" />
 
-      <p className="text-xs tracking-[0.4em] uppercase text-[#a08c6e] mb-4">
+      <p className="text-3x1 md:text-3xl tracking-[0.4em] uppercase text-[#a08c6e] mb-4">
         Save the Date
       </p>
 
-      <p className="text-3xl md:text-4xl tracking-widest text-[#2c2c2c] mb-2">
+      <p className="text-3xl md:text-5xl tracking-widest uppercase text-[#2c2c2c] mb-2">
         27 · 05 · 2027
       </p>
-      <p className="text-base text-gray-500 mb-1">às 17h30</p>
-      <p className="text-sm text-gray-400 mb-10">
-        Espaço Italia · Estrada da Roseira, 5500 · Apolinário
-      </p>
+
+      <div className="w-16 h-px bg-[#e5e0d8] my-6" />
+
+      <Countdown />
+
+      <div className="w-16 h-px bg-[#e5e0d8] my-6" />
+
+      <LocationButton />
+
+      <div className="w-16 h-px bg-[#e5e0d8] my-8" />
 
       <CalendarButtons />
 
-      <div className="w-16 h-px bg-[#e5e0d8] my-12" />
+      <div className="w-16 h-px bg-[#e5e0d8] my-8" />
 
-      <div className="text-center text-gray-400 text-sm">
-        <p className="tracking-widest uppercase text-xs mb-2 text-[#a08c6e]">
-          Deixe uma mensagem
-        </p>
-        <p className="italic text-gray-300">
-          Em breve — estamos preparando algo especial para vocês.
-        </p>
+      <div className="text-3xl md:text-5xl tracking-widest">
+        
+        <CommentSection />
+        
       </div>
 
     </main>
